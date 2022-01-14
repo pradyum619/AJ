@@ -1,0 +1,88 @@
+<!--
+    Resources from 
+    https://hackr.io/blog/10-best-javascript-frameworks-2019
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body>
+        <button class="collapsible">What is the JavaScript framework</button>
+        <div class="content">
+            <p>A software framework is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code. JavaScript framework is an application framework written in JavaScript where the programmers can manipulate the functions and use them for their convenience. </p>
+            
+            <p>Frameworks are more adaptable for the designing of websites, and hence, most of the website developers prefer it. JavaScript frameworks are a type of tool that makes working with JavaScript easier and smoother. These frameworks also make it possible for the programmer to code the application as a device responsive. This responsiveness is yet another reason why the JavaScript frameworks are quite popular when it comes to the question of using a high-level machine language. Let's have a look at the best JS Frameworks in 2019.</p>
+        </div>
+        
+        <button class="collapsible">Angular</button>
+        <div class="content">
+           <p>One of the most powerful, efficient, and open-source JavaScript frameworks is Angular. Google operates this framework and is implemented to use for developing a Single Page Application (SPA). It extends the HTML into the application and interprets the attributes to perform data binding.</p>
+        </div>
+        
+        <button class="collapsible">React</button>
+        <div class="content">
+           <p>Created by Facebook, the React framework has earned popularity within a short period. It is used to develop and operate the dynamic User Interface of the web pages with high incoming traffic. It makes the use of a virtual DOM, and hence, the integration of the same with any application is more straightforward.</p>
+        </div>
+        
+        <button class="collapsible">Node.js</button>
+        <div class="content">
+            <p>Node.js is a server-side JavaScript run-time environment, which works on cross platforms and is open-source. The framework is capable of driving asynchronous I/O with its event-driven architecture. It works in the JavaScript Runtime environment and hence shows similar properties of JAVA like threading, packages, forming of loops.</p>
+        </div>
+         
+        <button class="collapsible">Backbone.js</button>
+        <div class="content">
+           <p>It is one of the most popular JavaScript frameworks. It is effortless to understand and learn. It can be used to create Single Page Applications. The development of this framework involves the idea that all the server-side functions must flow through an API, which would help in achieving complex functionalities by writing less code. </p>
+        </div>
+        
+        <button class="collapsible">Vue.js</button>
+        <div class="content">
+           <p>Though developed in the year 2016, this JavaScript framework has already made its way into the market and has proven its worth by offering various features. Its dual integration mode is one of the most attractive features for the creation of high-end SPA or Single Page Application. It is a much reliable platform for developing cross-platform.</p>
+        </div>
+        
+        <button class="collapsible">Ember.js</button>
+        <div class="content">
+            <p>Introduction of Ember.js to the software market in was 2015, and since then, it has gained popularity with its wide application area. The features of Ember.js support two-way data binding and hence, establish a reliable platform for handling the complicated User Interfaces. Popular websites like LinkedIn, Netflix, Nordstrom, and many more use the Ember.JS platform for their websites.</p>
+        </div>
+        
+        <button class="collapsible">Meteor</button>
+        <div class="content">
+            <p>The application area of Meteor (aka Meteor.js or MeteorJS) serves the name itself since it is varied as it covers almost the significant portion of the software development. Uses of this framework include significant areas like back-end development, management of the database, business logic, and rendering of the front-end. </p>
+        </div>
+        
+        <button class="collapsible">Mithril</button>
+        <div class="content">
+            <p>Mithril is a client-side JavaScript framework that is used primarily in developing the Single Page Applications. As there are no derived functions from a base class, the implementation of the framework is more straightforward. It's small (< 8kb gzip), fast and provides routing and XHR utilities out of the box. It has a few features similar to React.</p>
+        </div>
+        
+        <button class="collapsible">Polymer</button>
+        <div class="content">
+            <p>The polymer is an open-source JavaScript library developed by Google, which can create the elements of the website without going into a complex level. Also, it supports both one-way and two-way data binding, hence making a more extensive application area. </p>.
+        </div>
+        
+        <button class="collapsible">Aurelia</button>
+        <div class="content">
+           <p>Aurelia framework is the latest version of JavaScript, which can be used to implement any interface. It is the next generation of the framework for developing far more robust websites. The framework of Aurelia can extend the HTML for various purposes, including data binding. Also, its modern architecture ensures that the purpose of toll is for interpretation client-side and server-side at a time.</p>
+        </div>
+       
+        <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    </body>
+</html>

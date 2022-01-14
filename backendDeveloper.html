@@ -1,0 +1,115 @@
+<!--
+    Resources from 
+    https://hackr.io/blog/how-to-become-a-backend-developer
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body>
+        <button class="collapsible">Introduction</button>
+        <div class="content">
+            <p>The field of web development has become a hotspot in recent years. With websites gaining more and more traction, organizations have realized that to capture more leads they need to have a strong online presence.</p>
+            
+            <p>If you’re an aspiring web developer, the first thing you need to know is that there are three categories of web developers – frontend, backend, and full-stack. Depending upon which category of web developer you wish to become, the steps to follow will vary.</p>
+        </div>
+        
+        <button class="collapsible">Who is a Backend Developer</button>
+        <div class="content">
+           <p>As you would probably already be aware, in a typical client-server architecture, application data is stored in the server-side and served as output to the client-side. The server-side working of a web application is known as backend. That’s where all the inner working of web applications takes place and that’s where the work of backend developers lies.</p>
+           
+        </div>
+        
+        <button class="collapsible">What does he do?</button>
+        <div class="content">
+           <p>Backend developers are responsible for using programming languages to create the code which actually makes web applications function the way they’re supposed to. The code that these developers write runs on the webserver. In addition to writing backend code, such developers are also responsible for developing APIs that are used by the mobile version of such web applications.</p>
+           
+        </div>
+        
+        <button class="collapsible">How to become a Backend Developer?</button>
+        <div class="content">
+           <p>Learning backend development helps you get acquainted with several programming languages which can help give your career a great boost. If you have a basic understanding of how logic works, it can prove to be quite beneficial. If not, you can always enroll for a basic computer language course to obtain exposure with the groundwork. This is only to ensure that once you set on the path of learning backend development, you don’t fall short at any stage.</p>
+           
+        </div>
+        
+        <button class="collapsible">1 - Be well versed with the basics of Data Structures & Algorithm</button>
+        <div class="content">
+            <p>Most of the web developers skip this step and move forward to learning frameworks. However, it is always better to know the data structure and algorithm basics. Though not in-depth, you must have a basic idea about the process.</p>
+            
+            <p>You should revise basic Data Structures and Algorithm Stack, Queue, Linked List, Tree, Graph, Hashing, Sorting & Searching Algorithms and other core concepts of programming.</p>
+            
+        </div>
+        
+        <button class="collapsible">2 - Learn a Programming Language and choose a Framework</button>
+        <div class="content">
+            <p>Becoming a web developer takes effort, time and patience. You cannot expect anyone to learn different coding languages overnight. So, decide on a timeline and the absolutely essential basic programming languages that you wish to learn.</p>
+            
+            <p>Programming languages like Python, PHP, Ruby, and JavaScript are sought after in recent times.</p>
+            
+            <p>You can go for learning multiple programming languages at once. Remember, the more the merrier. Also, please be aware that understanding the basics of programming is a must.</p>
+            
+            <p>If you're not already familiar with them, start with languages like C, Java or Python and try to understand how application logic works, what are the best practices of coding, etc.</p>
+        </div>
+        
+        <button class="collapsible">3 - Learn the basics of Databases</button>
+        <div class="content">
+            <p>Adding a database system to your portfolio would be the next logical step. There are many easy to use relational database management systems available from which you can select one. Almost all websites today boast some sort of storage, so learning about databases is always beneficial.</p>
+        </div>
+        
+        <button class="collapsible">4 - Learn Framework(s)</button>
+        <div class="content">
+            <p>Depending on the programming language you choose, you can learn the basics of at least one framework. Be it Django or Ruby-on-Rails, most frameworks follow the same MVC (Model-View-Controller) principle.</p>
+            
+            <p>Although writing entire application code in a programming language is permissible, it takes more effort and time along with extensive coding.</p>
+            
+            <p>Whereas, using frameworks lets you create templates and codes which can be reused later. This reduces the lines of code you are required to write. So you become more efficient. That’s why learning a framework is also a good idea.</p>
+        </div>
+        
+        <button class="collapsible">5 - Start your practical training</button>
+        <div class="content">
+            <p>You will not understand how stuff really works until you actually start doing it practically. You need to use the tools and practice regularly to better understand the theoretical knowledge you have learned so far. The best way to do this is by working on small projects or assignments. You can start off by doing projects like simple To-do list, simple blog, photo gallery web app, resume builder, basic project management app, etc.</p>
+            
+        </div>
+        
+        <button class="collapsible">6 - Innovate and create something new</button>
+        <div class="content">
+            <p>Innovation and original ideas are valued in all fields. Probably the most in the tech field since they can change the entire game. If you already have a start-up or project idea, then you're going great. If not, you still have time to think and work on it.</p>
+            
+            <p>It's good to start off with building a startup clone. It means that you would clone some products available in the market. Also, you might be interested in the following sites/apps that will be useful.</p>
+        </div>
+        
+        <button class="collapsible">7 - Hosting — AWS / Heroku</button>
+        <div class="content">
+           <p>Now you're ready to spread your wings! Deploy your product on a cloud service provider so it can be accessed from the WWW. AWS can be the first preference as it provides almost a year of free hosting (limited usage).</p>
+        </div>
+        
+        <button class="collapsible">Did you catch all of that?</button>
+        <div class="content">
+           <p>Well, now that you know how to be a backend developer, it's time to level up the game. Decide if you'd want to do a job as backend developer or you want to be a freelancer.</p>
+           <p>Becoming a backend developer may also boost your pay in most of the large scale industries. Keeping all these things in mind, work on developing a good resume. </p>
+           
+           <p>As a final takeaway, we’d just like to say that in addition to inculcating the required skills, in order to be successful as a backend developer, you need to be dedicated, patient, and hard-working.</p>
+        </div>
+        
+        <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    </body>
+</html>

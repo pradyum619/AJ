@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.button_container {
+    position: absolute;
+  left: 0;
+  right: 0;
+  top: 2%;
+  width:98%;
+  margin-left: 5px;
+}
+
+a {
+    text-decoration: none
+}
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  width:98%;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 10px 5px;
+  margin: 0 auto;
+  margin-bottom : 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+
+ .btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%)}
+.btn-grad:hover { background-position: right center; } 
+
+  .btn-grad1 {background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC 51%, #FC354C 100%)}
+.btn-grad1:hover { background-position: right center; } 
+
+ .btn-grad2 {background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)}
+.btn-grad2:hover { background-position: right center; } 
+
+ .btn-grad3 {background-image: linear-gradient(to right, #16A085 0%, #F4D03F 51%, #16A085 100%)}
+.btn-grad3:hover { background-position: right center; } 
+
+ .btn-grad4 {background-image: linear-gradient(to right, #348F50 0%, #56B4D3 51%, #348F50 100%)}
+.btn-grad4:hover { background-position: right center; } 
+
+ .btn-grad5 {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)}
+.btn-grad5:hover { background-position: right center; } 
+
+ .btn-grad6 {background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%)}
+.btn-grad6:hover { background-position: right center; } 
+
+ .btn-grad7 {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)}
+.btn-grad7:hover { background-position: right center; } 
+
+ .btn-grad8 {background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%)}
+.btn-grad8:hover { background-position: right center; } 
+
+ .btn-grad9 {background-image: linear-gradient(to right, #16222A 0%, #3A6073 51%, #16222A 100%)}
+.btn-grad9:hover { background-position: right center; } 
+
+ .btn-grad10 {background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%)}
+.btn-grad10:hover { background-position: right center; } 
+
+ .btn-grad11 {background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%)}
+.btn-grad11:hover { background-position: right center; } 
+
+ .btn-grad12 {background-image: linear-gradient(to right, #DC2424 0%, #4A569D 51%, #DC2424 100%)}
+.btn-grad:hover { background-position: right center; } 
+
+ .btn-grad13 {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%)}
+.btn-grad13:hover { background-position: right center; } 
+
+ .btn-grad14 {background-image: linear-gradient(to right, #e43a15 0%, #e65245 51%, #e43a15 100%)}
+.btn-grad14:hover { background-position: right center; } 
+
+ .btn-grad15 {background-image: linear-gradient(to right, #414d0b 0%, #727a17 51%, #414d0b 100%)}
+.btn-grad15:hover { background-position: right center; } 
+
+ .btn-grad16 {background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%)}
+.btn-grad16:hover { background-position: right center; } 
+
+ .btn-grad18 {background-image: linear-gradient(to right, #000046 0%, #1CB5E0 51%, #000046 100%)}
+.btn-grad18:hover { background-position: right center; } 
+
+ .btn-grad19 {background-image: linear-gradient(to right, #F7971E 0%, #FFD200 51%, #F7971E 100%)}
+.btn-grad19:hover { background-position: right center; } 

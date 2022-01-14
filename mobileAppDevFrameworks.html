@@ -1,0 +1,129 @@
+<!--
+    Resources from 
+    https://lvivity.com/top-mobile-app-frameworks
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body>
+        <div class="marquee">
+            <p>😁 Love this Joker and Follow to get new usefull updates ! 😁</p>
+        </div>
+        
+        <button class="collapsible">Introduction</button>
+        <div class="content">
+            <p>New technologies, frameworks, and other mobile app development tools appear very often. It may be a quite daunting task to choose the most suitable solution among available ones even for an experienced developer.</p>
+            
+            <p>Most frameworks are designed for cross-platform mobile app development. This approach is very convenient in case the future product does not involve many specific details peculiar to a certain platform, and the product UI and functionality are similar.</p>
+            
+            <p>The key reasons for using frameworks in mobile app development are the simplification of many typical tasks and the acceleration of the product development process. We have compiled a list of the most popular frameworks for you to pay attention to.</p>
+        </div>
+        
+        <button class="collapsible">1 - React Native</button>
+        <div class="content">
+            <p>Facebook is the creator of this mobile platform, and it is based on React JS and JavaScript. As in the case of “regular” React for the web, the app UI is assembled from components which respond to changes in their state and props. However, unlike the web version, they are rendered into native controls.</p>
+            
+            <p>React Native has an XML-like language which allows creating and using components in the same way as we usually do it in React. However, they will not be rendered in HTML but in the native controls of the operating system for which our app will be assembled.</p>
+            
+            <p>The advantages of using the React Native framework for app development are as follows:</p>
+            
+            <ul>
+                
+                <li>High-level flexibility and responsiveness.</li>
+                <li>A unified system of tools used regardless of the platform.</li>
+                <li>Data biding from large to small. This means a stream of data where child elements cannot affect parent data.</li>
+                <li>React advantages, such as high performance and virtual DOM, are applied to React Native as well.</li>
+                <li>Ease of combining with the native app code components.</li>
+                <li>Migration among versions is commonly very simple. Besides, Facebook provides “code mods” to automate most part of this process.</li>
+
+            </ul>
+        </div>
+        
+        <button class="collapsible">2 - Flutter</button>
+        <div class="content">
+            <p>Here’s another Google product, but this one is applied to developing mobile Android and iOS applications, as well as creating apps for Google Fuchsia OS.</p>
+            
+            <p>IFlutter is absolutely JS-free as it’s written in Dart, a programming language also created by Google for developing server-side and web applications for both desktop and mobile platforms. This lets Flutter interact with the platform without passing through the JavaBridge which, in turn, allows you to work way faster than otherwise.</p>
+            
+            <p>Also, it doesn’t need any of the UI components since they are implemented in Flutter already. That’s how the games and other apps written on this framework achieve their great speed. Its widgets are rendered only when it’s needed, and the Hot-Reload system helps the platform remake the widget tree from scratch.</p>
+            
+            <p>The advantages of using the Flutter framework for app development are as follows:</p>
+            
+            <ul>
+                
+                <li>Viability and active development.</li>
+                <li>The most important libraries are currently available and new ones are constantly emerging.</li>
+                <li>The interface is easily divided into separate modules.</li>
+                <li>Due to pixel perfect rendering, testing and platform-specific bug elimination and layout nuances improvement will be much faster.</li>
+                <li>Own graphics engine (there is no need to make an interface for Android and iOS separately).</li>
+                <li>Everything is represented with widgets, including a layout structure, app class, etc. UI development is carried out using different parts just as assembling a construction kit.</li>
+
+            </ul>
+        </div>
+        
+        <button class="collapsible">3 - Xamarin</button>
+        <div class="content">
+            <p>Xamarin from Microsoft is one of the leading open-source cross-platform development technologies. It uses the C# language for Android/iOS mobile app development and allows developers to access mobile OS native API.</p>
+           
+           <p>Using Xamarin, you have full access to all SDK features. The framework allows using native UI development tools and native UI elements for any platform. As a result, you get an app which, strictly speaking, is no different from native ones and which is not practically inferior to them in performance in most cases.</p>
+           
+           <p>The advantages of using the Xamarin framework for app development are as follows:</p>
+           
+           <ul>
+               
+                <li>Within the development process, a single code is created. Most part of it can be used for several platforms. It is only necessary to develop the UI for each separate platform.</li>
+                <li>Xamarin provides direct access to the native API of any platform;</li>
+                <li>The .NET platform and the C# programming language are used to develop apps.</li>
+                <li>The framework contains cross-platform development tools (Xamarin.Forms, XAML) and allows using tools specific to each separate OS.</li>
+                <li>Xamarin contains many plugins expanding development capabilities;</li>
+                <li>The framework is supplied with a complete package of development tools.</li>
+                <li>It has good documentation and a large community.</li>
+
+           </ul>
+        </div>
+        
+        <button class="collapsible">4 - Ionic</button>
+        <div class="content">
+           <p>Ionic is a cross-platform framework based on Angular and Apache Cordova. Developers can even create complex multifunctional mobile apps, using simple web technologies (CSS, JavaScript, and HTML) and having no deep knowledge in Objective-C or Java.</p>
+           
+           <p>The Ionic platform provides a significant advantage. It allows mobile app developers to use default UI elements in their design: forms, filters, action sheets, list representations, tab bars, and navigation menus. This feature helps developers focus on app development itself, rather than UI elements.</p>
+           
+           <p>The Ionic toolkit also allows updating apps already placed in AppStore and Google Play. This approach is very convenient for fixing critical bugs.</p>
+           
+           <p>The advantages of using the Ionic framework for app development:</p>
+           
+           <ul>
+               
+                <li>Ionic focuses on standard web APIs and developers can rest assured that API components will remain stable for many years.</li>
+                <li>Skills in Angular, HTML, CSS, and JavaScript are just about everything you need to get started. There is no need to know Java, Swift, or Objective-C.</li>
+                <li>It is possible to carry out most of the development in a web browser (apart from the native smartphone functionality, you will have to use a smartphone for debugging here).</li>
+                <li>It is possible to develop an app for iOS and Android simultaneously (with some restrictions related to platform features).</li>
+                <li>Many UI components are accessible and easy to use.</li>
+                <li>There are many plugins allowing developers to use smartphone functionality.</li>
+
+           </ul>
+        </div>
+        
+        <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    </body>
+</html>
